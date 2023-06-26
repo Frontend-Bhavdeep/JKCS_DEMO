@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+:root {
+  --bg: #fcfcfc;
+  --blue: #262652;
+  --yellow: #cca400;
+  --white: #fff;
+  --black: #000;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.issue {
+  display: flex;
+  background-color: var(--blue);
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.issue img {
+  width: 80px;
+  border-radius: 1em;
+  border: 2px solid var(--yellow);
+  margin-bottom: 30px;
+}
+
+.issue p {
+  font-size: 5em;
+  font-weight: 600;
+  color: var(--yellow);
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+}
+
+.que {
+  border: 1px solid var(--blue);
+  margin: 30px;
+  padding: 25px;
+  border-radius: 1em;
+}
+
+.que p {
+  font-size: 2em;
+  font-weight: 600;
+  padding-bottom: 20px;
+  color: var(--blue);
+}
+
+.ans p {
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--yellow);
+}
+
+@media (max-width: 900px) {
+  .issue {
+    border: 2px solid red;
+  }
+
+  .issue p {
+    font-size: 3em;
+    font-weight: 600;
+    color: var(--yellow);
+  }
+}
+
+@media (max-width: 630px) {
+  .issue {
+    border: 2px solid rgb(0, 255, 174);
+  }
+
+  .issue p {
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--yellow);
+  }
+
+  .issue img {
+    width: 70px;
+    border-radius: 0.5em;
+  }
+}
+
+@media (max-width: 490px) {
+  .issue {
+    border: 2px solid rgb(26, 84, 66);
+  }
+
+  .issue p {
+    font-size: 1.7em;
+    font-weight: 600;
+    color: var(--yellow);
+  }
+
+  .issue img {
+    width: 65px;
+    border-radius: 0.5em;
+  }
+}
