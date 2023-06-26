@@ -1,0 +1,196 @@
+
+.people-in-coworking-area-work-icon {
+  position: sticky;
+  top: 15px;
+  left: 0;
+  width: 1537px;
+  height: 175px;
+  object-fit: cover;
+}
+.what-we-do {
+  position: absolute;
+  top: 10px;
+  left: 90px;
+  font-size: var(--font-size-23xl);
+  color: var(--color-darkslateblue);
+  display: inline-block;
+  width: 227px;
+  height:136px;
+  -webkit-text-stroke: 1px #000;
+}
+.what-we-do-1-1-icon {
+  position: absolute;
+  top: 305px;
+  left: 950px;
+  width: 437px;
+  height: 235px;
+  object-fit: cover;
+  border-radius: 7%;
+}
+.belief-powers-business-container,
+.services {
+  padding: 0%;
+  position: absolute;
+  top: 270px;
+  left: 64px;
+  color: var(--color-black);
+  display: inline-block;
+  width: 761px;
+  height: 269px;
+  font-size: var(--font-size-13xl);
+}
+.belief-powers-business {
+  margin: 5;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-alef);
+}
+.blank-line {
+  margin: 10;
+  bottom: 2%;
+  
+}
+
+.services {
+  /*top: 574px;
+  left: 55px;
+  font-size: var(--font-size-21xl);
+  width: 180px;
+  height: 52px;
+  */
+  padding: 2%;
+  position: relative;
+  top: 574px;
+  left: 55px;
+  font-size: var(--font-size-23xl);
+  color: var(--color-darkslateblue);
+  display: inline-block;
+  width: 227px;
+  height:136px;
+  -webkit-text-stroke: 1px #000;
+}
+.codevita-card-1330x1270-small-icon {
+  position: absolute;
+  top: 674px;
+  left: 55px;
+  width: 282px;
+  height: 199px;
+  object-fit: cover;
+  border-radius: 7%;
+}
+.consulting {
+  position: absolute;
+  top: 841px;
+  left: 172px;
+  display: inline-block;
+  width: 159px;
+  height: 32px;
+  -webkit-text-stroke: 1px #fff;
+}
+.cyber-security-ai-ml-attack-ca-icon {
+  position: absolute;
+  top: 674px;
+  left: 602px;
+  width: 280px;
+  height: 199px;
+  object-fit: cover;
+  border-radius: 7%;
+}
+.computer-desk-work-people-1-icon {
+  left: 1106px;
+  width: 281px;
+  position: absolute;
+  top: 674px;
+  height: 199px;
+  object-fit: cover;
+  border-radius: 7%;
+}
+.software-dev,
+.website-dev {
+  position: absolute;
+  top: 694px;
+  left: 615px;
+  display: inline-block;
+  width: 212px;
+  height: 107px;
+  -webkit-text-stroke: 1px #fff;
+}
+.software-dev {
+  top: 834px;
+  left: 1153px;
+  width: 268px;
+  height: 46px;
+  position: absolute;
+  display: inline-block;
+  -webkit-text-stroke: 1px #fff;
+}
+
+.courses-parent {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  background-color: var(--color-darkslateblue);
+  border: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1443px;
+  height: 126px;
+  overflow: hidden;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gainsboro);
+}
+.portfolio-2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 924px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.portfolio{
+  flex: 33.33%;
+	max-width: 33.33%;
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+.text-footer {
+  text-align: center;
+  padding: 30px 0;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.background {
+  background: white;
+  background-blend-mode: darken;
+  background-size: cover;
+}
+
+
+@media screen and (max-width: 1067px){
+  .portfolio{
+      flex: 100%;
+      max-width: 80%;
+  }
+  }
+  @media screen and (max-width: 30px){
+  .portfolio{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
+@media(max-width: 1067px){
+	.footer-col{
+	  width: 50%;
+	  margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+	.footer-col{
+	  width: 100%;
+  }
+  }
