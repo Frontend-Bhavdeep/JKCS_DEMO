@@ -1,0 +1,109 @@
+.case-img-1-small-1-icon,
+.case-img-2-small-1-icon {
+  position: absolute;
+  top: 494px;
+  left: 162px;
+  width: 370px;
+  height: 179.51px;
+  object-fit: cover;
+}
+.case-img-2-small-1-icon {
+  left: 915px;
+  width: 376.27px;
+  height: 180px;
+}
+.lorem-ipsum-dolor {
+  margin: 0;
+}
+.lorem-ipsum-dolor-container {
+  position: absolute;
+  top: 680px;
+  left: 908px;
+  display: inline-block;
+  width: 419px;
+  height: 177px;
+}
+.term-of-service {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+  font-size: var(--font-size-base);
+}
+.web-design-web-development-com-icon {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 1540px;
+  height: 191px;
+  object-fit: cover;
+}
+.case-studies1 {
+  position: absolute;
+  top: 140px;
+  left: 14px;
+  font-size: 40px;
+  display: inline-block;
+  width: 268px;
+  height: 46px;
+}
+.lorem-ipsum-dolor-container1 {
+  position: absolute;
+  top: 686px;
+  left: 162px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 419px;
+  height: 177px;
+}
+.the-challenge,
+.the-strategy {
+  position: absolute;
+  top: 446px;
+  left: 915px;
+  display: inline-block;
+  width: 224px;
+  height: 48px;
+}
+.the-challenge {
+  left: 162px;
+}
+.marketing-solutions-that {
+  top: 150;
+  margin: 0;
+  font-size: var(--font-size-base);
+}
+.we-are-it-container {
+  position: absolute;
+  top: 251px;
+  left: 14px;
+}
+.case-studies {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+.text-footer {
+  text-align: center;
+  padding: 30px 0;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.background {
+  background: white;
+  background-blend-mode: darken;
+  background-size: cover;
+}
