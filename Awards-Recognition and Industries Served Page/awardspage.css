@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans';
+    background: -webkit-linear-gradient(to left, #cca30054, #34344457);
+    background: linear-gradient(to left, #cca30054, #34344457);
+}
+
+.container {
+    margin: auto;
+}
+
+
+/* ---------------------------------------------navbar ------------------------------------------------------ */
+.logo img {
+    width: 80px;
+    height: auto;
+    padding: 15px 15px;
+}
+
+nav {
+    background: #94843A;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    font-size: larger;
+    text-decoration: rgb(255, 255, 255);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    padding-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin: 0 5px;
+    line-height: 80px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.checkbtn {
+    float: right;
+    display: none;
+    cursor: pointer;
+    color: rgba(0,0,0,.55);
+    box-sizing: border-box;
+    border-color: rgba(0, 0, 0, 0.422);
+    border: #0000003d solid ;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding: 0.15rem 0.95rem;;
+    background-color: transparent;
+    border-radius: 0.45rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+#check {
+    display: none;
+}
+
+/* -------------responsive header-----------------*/
+@media (max-width: 992px) {
+    nav ul li a{
+        font-size: 16px;
+        display: none;
+    }
+}
+
+@media (max-width: 992px){
+    .checkbtn{
+        font-size: 2rem;
+        display: block;
+    }
+}
+
+/* ------------------------------------------ content start here-----------------------------------------------*/
+h1 {
+    color: #343444;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 1.5px 2px 2px #000000;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+section {
+    margin-bottom: 7rem;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* ---------------------------------------------- awards and recognition ----------------------------------- */
+.new {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 0;
+    word-wrap: break-word;
+}
+
+.card1 {
+    width: 22rem;
+    height: auto;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.card-img img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-body h2{
+    color: #000000;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.card-body p {
+    color: #000000;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.card1:hover {
+    box-shadow: 3.9px 7.8px 7.8px hsla(0, 0%, 0%, 0.71);
+}
+
+.show {
+    padding: 2rem;
+}
+/* --------------------------------------------awards and recognition---------------------------------------- */
+
+/* ----------------------------------------------industries served------------------------------------------- */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;;
+}
+
+.card-item {
+    color: #fff;
+    width: 22rem;
+    height: auto;
+    padding: 20px;
+    margin: 0.9rem;
+    margin-bottom: 0.3rem;
+    background-color: #343444b0;
+    border-radius: 0.3rem;
+}
+
+.card-item:hover {
+    box-shadow: 3.9px 7.8px 7.8px hsla(0, 0%, 0%, 0.817);
+}
+
+.card-item p {
+    font-weight: bold;
+    margin: 0;
+}
+
+/* --------------------------------------------industries served---------------------------------------------- */
+
+/*--------------------------------------------------- footer-------------------------------------------------- */
+.container1{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #94843A; 
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.inputBox
+{
+	position: relative;
+	width: 250px;
+}
+.inputBox input
+{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid rgba(255,255,255,0.25);
+	background: #1d2b3a;
+	border-radius: 5px;
+	outline: none;
+	color:#fff;
+	font-size: 1em;
+	transition: 0.5s;
+}
+.inputBox span
+{
+	position: absolute;
+	left: 0;
+	padding: 10px;
+	pointer-events: none;
+	font-size: 1em;
+	color: rgba(255,255,255,0.25);
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+.inputBox input:valid~ span,
+.inputBox input:focus~ span
+{
+	color: #ffffff;
+	transform: translateX(10px) translateY(-7px);
+	font-size: 0.65em;
+	padding: 0.5px;
+	background: #1d2b3a;
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	letter-spacing: 0.2em;
+}
+
+/*------------ responsive footer------------ */
+@media(max-width: 1067px){
+	.footer-col{
+	  width: 50%;
+	  margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 320px){
+	.footer-col{
+	  width: 100%;
+  }
+  }
+/* ------------------------------------------footer------------------------------------------------------ */
+
+/*----------------------------------------------- responsive -------------------------------------------------*/
+
+@media screen and (max-width: 1600px) and (min-width: 320px){
+
+    html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .card1 .card .card-item{
+        width: 100%;
+    }
+}
